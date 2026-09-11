@@ -29,6 +29,11 @@
     />
     <meta property="og:url" content="https://sonyadmitrieva.ru/" />
     <meta property="og:image" content="https://sonyadmitrieva.ru/og-image.jpg" />
+    <!-- Явные размеры/тип картинки — некоторые краулеры (в т.ч. Telegram)
+         иногда не подхватывают og:image без этих подсказок -->
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1800" />
+    <meta property="og:image:height" content="1200" />
 
     <!-- Twitter/X card — тот же принцип, отдельный набор тегов, который читают некоторые площадки -->
     <meta name="twitter:card" content="summary_large_image" />
